@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56ad6dba-304c-478b-b082-0a498802e627" name="Changes" comment="define protobuf gradle plugin">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="56ad6dba-304c-478b-b082-0a498802e627" name="Changes" comment="generate proto task">
       <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/proto/test.proto" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/proto/test.proto" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650610091773</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="generate proto task">
+      <created>1650612235836</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1650612235836</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -104,6 +109,7 @@
     <MESSAGE value="define armeria deps" />
     <MESSAGE value="define test proto" />
     <MESSAGE value="define protobuf gradle plugin" />
-    <option name="LAST_COMMIT_MESSAGE" value="define protobuf gradle plugin" />
+    <MESSAGE value="generate proto task" />
+    <option name="LAST_COMMIT_MESSAGE" value="generate proto task" />
   </component>
 </project>
