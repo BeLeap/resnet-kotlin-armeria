@@ -1,9 +1,20 @@
 package ai.mindslab.brain.resnet_kotlin_armeria
 
+import ai.mindslab.brain.resnet_kotlin_armeria.controller.TestServiceImpl
+import com.linecorp.armeria.common.grpc.GrpcSerializationFormats
 import com.linecorp.armeria.server.Server
+import com.linecorp.armeria.server.grpc.GrpcService
+import io.grpc.protobuf.services.ProtoReflectionService
 
 fun main() {
-    val server: Server? = Server.builder().apply {}.build()
+    val server: Server? = Server.builder().apply {
+        service(GrpcService.builder().apply {
+            addService(TestServiceImpl())
+            addService(ProtoReflectionService.newInstance())
+            supportedSerializationFormats(GrpcSerializationFormats.values())
+            enableUnframedRequests(true)
+        }.build())
+    }.build()
 
     server?.start()
 }
