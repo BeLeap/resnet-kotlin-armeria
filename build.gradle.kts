@@ -1,9 +1,20 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath("com.google.protobuf:protobuf-gradle-plugin:0.8.18")
+    }
+}
+
 plugins {
     kotlin("jvm") version "1.6.20"
     id("java")
     id("idea")
+    id("com.google.protobuf") version "0.8.18"
 }
 
 group = "ai.mindslab.brain"
