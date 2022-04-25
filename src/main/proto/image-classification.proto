@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package ai.mindslab.resnet_kotlin_armeria;
+option java_package =  "ai.mindslab.brain.resnet_kotlin_armeria";
+
+service ImageClassificationService {
+  rpc Classify (stream ClassifyRequest) returns (ClassifyReply) {}
+}
+
+message ClassifyRequest {
+  bytes data = 1;
+}
+
+message ClassifyReply {
+  string result = 1;
+}
