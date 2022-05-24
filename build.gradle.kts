@@ -42,9 +42,11 @@ dependencies {
     protobuf(files("${project.path}/proto"))
 
     implementation("io.grpc:grpc-kotlin-stub:1.2.1")
-    implementation("io.grpc:grpc-protobuf:1.45.1")
+    implementation("io.grpc:grpc-protobuf:1.46.0")
     implementation("com.google.protobuf:protobuf-kotlin:3.20.1")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.1")
+
+    implementation("com.microsoft.onnxruntime:onnxruntime:1.11.0")
 }
 
 protobuf {

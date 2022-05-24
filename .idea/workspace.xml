@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56ad6dba-304c-478b-b082-0a498802e627" name="Changes" comment="fix line ending">
+    <list default="true" id="56ad6dba-304c-478b-b082-0a498802e627" name="Changes" comment="collect streaming data">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ai/mindslab/brain/resnet_kotlin_armeria/controller/ImageClassificationServiceImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ai/mindslab/brain/resnet_kotlin_armeria/controller/ImageClassificationServiceImpl.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653281970183</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="collect streaming data">
+      <created>1653282718705</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1653282718705</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -207,6 +214,7 @@
     <MESSAGE value="simple grpc service" />
     <MESSAGE value="add image classification service" />
     <MESSAGE value="fix line ending" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix line ending" />
+    <MESSAGE value="collect streaming data" />
+    <option name="LAST_COMMIT_MESSAGE" value="collect streaming data" />
   </component>
 </project>
