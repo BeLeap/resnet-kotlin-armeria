@@ -10,7 +10,7 @@ import kotlinx.coroutines.flow.onEach
 import org.slf4j.LoggerFactory
 
 class ImageClassificationServiceImpl: ImageClassificationServiceGrpcKt.ImageClassificationServiceCoroutineImplBase() {
-    val logger = LoggerFactory.getLogger(ImageClassificationServiceImpl::class.qualifiedName)
+    private val logger = LoggerFactory.getLogger(ImageClassificationServiceImpl::class.qualifiedName)
     val service = ImageClassificationService()
     override suspend fun classify(requests: Flow<ImageClassification.ClassifyRequest>): ImageClassification.ClassifyReply {
         var data = byteArrayOf()
