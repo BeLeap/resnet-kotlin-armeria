@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56ad6dba-304c-478b-b082-0a498802e627" name="Changes" comment="make logger private">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="56ad6dba-304c-478b-b082-0a498802e627" name="Changes" comment="add steps to readme">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,7 +209,21 @@
       <option name="project" value="LOCAL" />
       <updated>1653365399183</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="remove protobuf for testing">
+      <created>1653458984302</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1653458984302</updated>
+    </task>
+    <task id="LOCAL-00016" summary="add steps to readme">
+      <created>1653459713661</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1653459713661</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -238,6 +252,8 @@
     <MESSAGE value="add onnxruntime dep" />
     <MESSAGE value="pass input to onnx model" />
     <MESSAGE value="make logger private" />
-    <option name="LAST_COMMIT_MESSAGE" value="make logger private" />
+    <MESSAGE value="remove protobuf for testing" />
+    <MESSAGE value="add steps to readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="add steps to readme" />
   </component>
 </project>
