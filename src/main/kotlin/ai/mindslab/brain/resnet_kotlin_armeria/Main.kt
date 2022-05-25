@@ -17,6 +17,8 @@ fun main() {
             supportedSerializationFormats(GrpcSerializationFormats.values())
             enableUnframedRequests(true)
         }.build())
+
+        http(50911)
     }.build()
 
     server?.start()

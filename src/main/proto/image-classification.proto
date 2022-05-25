@@ -4,13 +4,14 @@ package ai.mindslab.resnet_kotlin_armeria;
 option java_package =  "ai.mindslab.brain.resnet_kotlin_armeria";
 
 service ImageClassificationService {
-  rpc Classify (stream ClassifyRequest) returns (ClassifyReply) {}
+  rpc Classify (ClassifyRequest) returns (ClassifyReply) {}
 }
 
 message ClassifyRequest {
-  bytes data = 1;
+  repeated int64 shape = 1;
+  repeated float data = 2;
 }
 
 message ClassifyReply {
-  string result = 1;
+  repeated float result = 1;
 }

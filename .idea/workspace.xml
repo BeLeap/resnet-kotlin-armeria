@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56ad6dba-304c-478b-b082-0a498802e627" name="Changes" comment="pass input to onnx model">
+    <list default="true" id="56ad6dba-304c-478b-b082-0a498802e627" name="Changes" comment="make logger private">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ai/mindslab/brain/resnet_kotlin_armeria/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ai/mindslab/brain/resnet_kotlin_armeria/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/ai/mindslab/brain/resnet_kotlin_armeria/controller/ImageClassificationServiceImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ai/mindslab/brain/resnet_kotlin_armeria/controller/ImageClassificationServiceImpl.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ai/mindslab/brain/resnet_kotlin_armeria/service/ImageClassificationService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ai/mindslab/brain/resnet_kotlin_armeria/service/ImageClassificationService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/proto/image-classification.proto" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/proto/image-classification.proto" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653355820724</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="make logger private">
+      <created>1653365399183</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1653365399183</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -231,6 +241,7 @@
     <MESSAGE value="collect streaming data" />
     <MESSAGE value="add onnxruntime dep" />
     <MESSAGE value="pass input to onnx model" />
-    <option name="LAST_COMMIT_MESSAGE" value="pass input to onnx model" />
+    <MESSAGE value="make logger private" />
+    <option name="LAST_COMMIT_MESSAGE" value="make logger private" />
   </component>
 </project>
